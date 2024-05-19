@@ -87,8 +87,6 @@ export const projects = [
     linkSpotify:
       "https://open.spotify.com/track/6uv64SYDpBzbJufVmT0zjQ?si=e534a99dfba94529",
   },
-];
-export const disks = [
   {
     title: "Placebo",
     description:
@@ -100,6 +98,7 @@ export const disks = [
     linkSpotify: "https://open.spotify.com/album/39R0yBlnDxx3L4aJFqZuOS",
   },
 ];
+
 export const others = [
   {
     title: "El gato negro de ojos azules, día 13, y otras locuras",

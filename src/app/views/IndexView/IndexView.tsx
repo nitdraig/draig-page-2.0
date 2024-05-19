@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection/HeroSection";
 import AboutSection from "./AboutSection/AboutSection";
 import SongsSection from "./SongsSection/SongsSection";
 import BookSection from "./BookSection/BookSection";
+import ContactSection from "./ContactSection/ContactSection";
 
 const IndexView = () => {
   return (
@@ -11,6 +12,7 @@ const IndexView = () => {
       <AboutSection />
       <SongsSection />
       <BookSection />
+      <ContactSection />
     </>
   );
 };
