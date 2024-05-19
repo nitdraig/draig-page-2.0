@@ -2,10 +2,13 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <section className="h-screen w-screen flex flex-col justify-center items-center ">
-      <h2 className="text-5xl uppercase font-bold text-gray-800 mb-10">
+    <section
+      className="bg-[#9370db] h-screen w-screen flex flex-col justify-center items-center "
+      id="contact"
+    >
+      <h3 className="text-5xl uppercase font-bold text-white mb-10">
         Gracias por tu apoyo
-      </h2>
+      </h3>
       <div className="mb-8">
         <img
           src="https://res.cloudinary.com/draig/image/upload/v1688837280/draig-page/c3hx5mbz6o0j7ohyddyr.png"
@@ -17,12 +20,12 @@ const ContactSection = () => {
 
       <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between w-full max-w-4xl">
         <div className="w-full md:w-1/2 text-center md:text-left mb-6 md:mb-0 md:mr-6">
-          <h3 className="text-3xl font-semibold text-gray-800 mb-4">
+          <h3 className="text-3xl font-semibold text-white mb-4">
             Sígueme en mis redes sociales
           </h3>
-          <p className="text-lg text-gray-700 mb-4">
-            Mantente en contacto con nosotros a través de nuestras redes
-            sociales. ¡Nos encantaría saber de ti!
+          <p className="text-lg text-white mb-4">
+            Mantente en contacto conmigo a través de mis redes sociales. ¡Me
+            encantaría saber de ti!
           </p>
           <div className="flex justify-center md:justify-start space-x-4">
             <a

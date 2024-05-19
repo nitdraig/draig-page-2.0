@@ -2,7 +2,10 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="relative h-screen w-screen flex items-center">
+    <section
+      className="relative h-screen w-screen flex items-center"
+      id="about"
+    >
       <div className="absolute top-0 left-0 w-full h-full z-0">
         <img
           src="./about_bg.jpg"
@@ -29,9 +32,9 @@ const AboutSection = () => {
             audiovisuales de todo tipo.
           </p>
           <div className="flex flex-wrap  justify-center gap-6">
-            <a className="relative" href="#">
+            <a className="relative" href="#songs">
               <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"></span>
-              <span className="fold-bold text-2xl relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1  font-bold text-black transition duration-100 hover:bg-purple-500 hover:text-white">
+              <span className="fold-bold text-2xl relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1  font-bold text-black transition duration-300 hover:bg-[#4B0082] hover:text-white">
                 Placebo para el alma
               </span>
             </a>

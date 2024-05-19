@@ -40,3 +40,33 @@ img {
   color: white;
   background: #1f2937;
 } */
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    #3c0877,
+    #4b0082,
+    #9370db,
+    #9119e7,
+    #ab4ff7,
+    #1b0410,
+    #4b0082,
+    #9370db,
+    #9119e7,
+    #ab4ff7
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+}
+.gradient-bg {
+  background: linear-gradient(
+    to left,
+    #3c0877,
+    #4b0082,
+    #9119e7,
+    #ab4ff7,
+    #4b0082,
+    #9119e7,
+    #ab4ff7
+  );
+  background-size: 300% 300%;
+}

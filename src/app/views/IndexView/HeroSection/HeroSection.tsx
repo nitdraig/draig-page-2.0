@@ -14,13 +14,16 @@ const HeroSection = () => {
           muted
         ></video>
         <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center text-center">
-          <h1 className="text-white uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4">
+          <h1 className="text-transparent bg-clip-text gradient-text animate-gradient uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4">
             Draig
           </h1>
           <p className="text-white uppercase text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
             No es música, mi arte es placebo para el alma
           </p>
-          <button className="mt-8 bg-transparent border border-white text-white hover:text-black rounded-full flex items-center justify-center px-4 py-2  duration-300 transition-transform  transform hover:scale-110 hover:-translate-y-1 hover:bg-white ">
+          <a
+            href="#about"
+            className="mt-8 text-2xl bg-transparent border border-white text-white  rounded-full flex items-center justify-center px-4 py-2  duration-300   transform  hover:-translate-y-1 transition  hover:bg-[#4B0082] "
+          >
             <span className=" mr-2">Leer más</span>
             <svg
               className="w-6 h-6  "
@@ -36,7 +39,7 @@ const HeroSection = () => {
                 d="M19 14l-7 7m0 0l-7-7m7 7V3"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </section>

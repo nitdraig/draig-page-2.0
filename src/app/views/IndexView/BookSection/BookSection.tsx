@@ -2,12 +2,15 @@ import React from "react";
 
 const BookSection = () => {
   return (
-    <div className="bg-no-repeat bg-cover bg-center relative">
+    <section
+      className="bg-gradient-to-r from-[#4B0082] via-[#9370DB] to-[#4B0082] bg-cover bg-center relative"
+      id="book"
+    >
       <div className="absolute bg-gradient-to-r from-gray-900 to-gray-900 opacity-75 inset-0 z-0"></div>
       <div>
-        <div className="min-h-screen flex justify-center">
+        <div className="min-h-screen flex justify-center ">
           <div className="grid grid-cols-2 gap-4 items-center z-10">
-            <div className="max-w-lg text-center sm:text-left">
+            <div className="max-w-lg text-center sm:text-left ">
               <h2 className="text-4xl font-bold text-gray-100 tracking-tight">
                 Día 13, el gato negro de ojos azules y otras locuras.
               </h2>
@@ -25,28 +28,28 @@ const BookSection = () => {
                 <a
                   href="https://www.behance.net/ajeeshmon"
                   target="_blank"
-                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg   bg-blue-600 hover:drop-shadow-lg cursor-pointer hover:transform hover:scale-110 hover:duration-300"
+                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg   bg-[#9370DB] hover:drop-shadow-lg cursor-pointer hover:transform hover:scale-110 hover:duration-300"
                 >
                   <img src="./icons/amazon.svg" className="w-12 " alt="" />
                 </a>
                 <a
                   href="https://www.behance.net/ajeeshmon"
                   target="_blank"
-                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg hover:transform hover:scale-110 hover:duration-200   bg-blue-600 hover:drop-shadow-lg cursor-pointer"
+                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg hover:transform hover:scale-110 hover:duration-200   bg-[#9370DB] hover:drop-shadow-lg cursor-pointer"
                 >
                   <img src="./icons/read.png" className="w-12 invert " alt="" />
                 </a>
                 <a
                   href="https://www.behance.net/ajeeshmon"
                   target="_blank"
-                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg   bg-blue-600 hover:drop-shadow-lg cursor-pointer hover:transform hover:scale-110 hover:duration-300"
+                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg   bg-[#9370DB] hover:drop-shadow-lg cursor-pointer hover:transform hover:scale-110 hover:duration-300"
                 >
                   <img src="./icons/store.png" className="w-12 invert" alt="" />
                 </a>
               </div>
             </div>
 
-            <div className="mx-0 max-w-xl flex rounded-3xl bg-indigo-700">
+            <div className="mx-0 max-w-xl flex rounded-3xl bg-[#4B0082] shadow-xl rotate-6 hover:shadow-black/80  transition-shadow">
               <div className=" flex-col flex  self-center">
                 <div className="">
                   <div className="">
@@ -93,7 +96,7 @@ const BookSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
