@@ -19,7 +19,7 @@ const SongsSection = () => {
         }}
         parallax={true}
         autoplay={{
-          delay: 5000,
+          delay: 6000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -56,21 +56,31 @@ const SongsSection = () => {
                 data-swiper-parallax="-100"
               >
                 <div data-swiper-parallax="-300">
-                  <h3 className="lg:text-4xl uppercase mb-3">{slide.title}</h3>
+                  <h3 className="lg:text-4xl text-3xl font-bold uppercase mb-3">
+                    {slide.title}
+                  </h3>
                 </div>
-                <p className="text-2xl ">{slide.description}</p>
-                <div className="mt-6 text-3xl mb-4 ">
+                <p className="lg:text-2xl text-lg ">{slide.description}</p>
+                <div className="flex flex-wrap mt-4 mb-2  justify-center gap-6">
                   <a
+                    className="relative"
                     href={slide.linkSpotify}
-                    className="bg-green-700 hover:bg-green-500 transition duration-300  hover:text-black text-white font-bold py-2 px-4 rounded-2xl m-2"
+                    target="_blank"
                   >
-                    Spotify
+                    <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black "></span>
+                    <span className="fold-bold lg:text-2xl text-lg relative inline-block h-full w-full rounded border-2  px-3 py-1  font-bold text-white transition duration-300 bg-green-700 hover:bg-green-500 hover:text-white">
+                      Spotify
+                    </span>
                   </a>
                   <a
+                    className="relative"
                     href={slide.linkYoutube}
-                    className="bg-red-700 hover:bg-red-500 transition duration-300 hover:text-black text-white font-bold py-2 px-4 rounded-2xl m-2"
+                    target="_blank"
                   >
-                    Youtube
+                    <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black "></span>
+                    <span className="fold-bold lg:text-2xl text-lg relative inline-block h-full w-full rounded border-2  px-3 py-1  font-bold text-white transition duration-300 bg-red-700 hover:bg-red-500 hover:text-white">
+                      Youtube
+                    </span>
                   </a>
                 </div>
               </div>
