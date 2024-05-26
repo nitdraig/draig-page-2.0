@@ -4,11 +4,13 @@ import AboutSection from "./AboutSection/AboutSection";
 import SongsSection from "./SongsSection/SongsSection";
 import BookSection from "./BookSection/BookSection";
 import ContactSection from "./ContactSection/ContactSection";
+import TopButton from "@/app/components/TopButton";
 
 const IndexView = () => {
   return (
     <>
       <HeroSection />
+      <TopButton />
       <AboutSection />
       <SongsSection />
       <BookSection />

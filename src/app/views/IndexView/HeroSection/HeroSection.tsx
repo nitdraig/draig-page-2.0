@@ -3,7 +3,10 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-screen w-screen flex justify-center items-center">
+    <section
+      className="relative h-screen w-screen flex justify-center items-center"
+      id="hero"
+    >
       <div className="w-full h-full relative z-0 bg-black  overflow-hidden">
         <video
           src="https://res.cloudinary.com/draig/video/upload/v1716749197/draig-page/cy274ihxe3kpyhtmo68t.mp4"
@@ -18,9 +21,9 @@ const HeroSection = () => {
           <h1 className="text-transparent bg-clip-text gradient-text animate-gradient uppercase text-5xl  lg:text-8xl  font-bold mb-4 lg:mb-8">
             Draig
           </h1>
-          <h3>
+          <h2>
             <HeroTextAnimation />
-          </h3>
+          </h2>
 
           <div className="flex flex-wrap mt-4  lg:mt-10 justify-center gap-6">
             <a className="relative" href="#about">

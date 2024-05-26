@@ -17,13 +17,13 @@ const AboutSection = () => {
       </div>
       <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center">
         <div className="max-w-4xl mx-auto px-6 py-12 text-center md:text-left">
-          <h2 className="lg:text-6xl text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="lg:text-6xl text-4xl md:text-5xl font-bold text-white mb-4">
             DRAIG
-          </h2>
-          <p className="lg:text-2xl text-xl text-white mb-8">
+          </h1>
+          <h3 className="lg:text-2xl text-xl text-white mb-8">
             Detrás de este nombre se encuentra un compositor, productor y
             escritor, con una pasión desbordante por el arte.
-          </p>
+          </h3>
 
           <p className="lg:text-2xl text-xl text-white mb-8">
             <AnimationText
