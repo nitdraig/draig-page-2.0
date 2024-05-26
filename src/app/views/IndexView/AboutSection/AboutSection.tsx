@@ -11,9 +11,9 @@ const AboutSection = () => {
         <img
           src="./about_bg.jpg"
           alt="Background"
-          className="w-full h-full object-cover"
+          className="w-full  h-full  object-cover"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-75"></div>
       </div>
       <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center">
         <div className="max-w-4xl mx-auto px-6 py-12 text-center md:text-left">

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Draig, artista, productor y escritor, con una pasión desbordante por el arte. Draig ha dejado su huella en la industria musical con su música en Spotify y otras plataformas. Además de música, DRAIG también ha incursionado en la escritura, contando con un libro publicado en Amazon.  Fundador de Tinta Negra Studios, dedicado a crear producciones audiovisuales de todo tipo.",
     creator: "Avellaneda Agustín",
     images:
-      "https://res.cloudinary.com/draig/image/upload/v1709857812/freelance/dc-consultora/jeyhi2cocajc7ouv4cnx.png",
+      "https://res.cloudinary.com/draig/image/upload/v1716756378/draig-page/w2mxnh6grba0tcdoqeiu.png",
   },
 
   robots: {
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "DRAIG | Artista, Productor y Escritor.",
     images: [
       {
-        url: "https://res.cloudinary.com/draig/image/upload/v1709857812/freelance/dc-consultora/jeyhi2cocajc7ouv4cnx.png",
+        url: "https://res.cloudinary.com/draig/image/upload/v1716756378/draig-page/w2mxnh6grba0tcdoqeiu.png",
       },
     ],
   },
