@@ -26,24 +26,20 @@ const BookSection = () => {
               </p>
               <div className="flex flex-row justify-center md:justify-start items-center space-x-3 mt-5">
                 <a
-                  href="https://www.behance.net/ajeeshmon"
+                  href="https://www.amazon.com/dp/1687540241"
                   target="_blank"
                   className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg bg-[#9370DB] hover:drop-shadow-lg cursor-pointer hover:transform hover:scale-110 hover:duration-300"
                 >
                   <img src="./icons/amazon.svg" className="w-12" alt="" />
                 </a>
                 <a
-                  href="https://www.behance.net/ajeeshmon"
+                  href="https://drive.google.com/file/d/19lPaKyYY-HTJIei8toHkY-JMH39Tiyn5/view?usp=sharing"
                   target="_blank"
                   className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg hover:transform hover:scale-110 hover:duration-200 bg-[#9370DB] hover:drop-shadow-lg cursor-pointer"
                 >
                   <img src="./icons/read.png" className="w-12 invert" alt="" />
                 </a>
-                <a
-                  href="https://www.behance.net/ajeeshmon"
-                  target="_blank"
-                  className="w-14 h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg bg-[#9370DB] hover:drop-shadow-lg cursor-pointer hover:transform hover:scale-110 hover:duration-300"
-                >
+                <a className="w-14 cursor-not-allowed h-14 items-center justify-center inline-flex rounded-2xl font-bold text-lg bg-[#9370DB] hover:drop-shadow-lg  hover:transform hover:scale-110 hover:duration-300">
                   <img src="./icons/store.png" className="w-12 invert" alt="" />
                 </a>
               </div>
