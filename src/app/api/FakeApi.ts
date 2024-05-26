@@ -90,7 +90,7 @@ export const projects = [
   {
     title: "Placebo",
     description:
-      "Este cuenta con 14 temas originales, totalmente nuevos, compuestos, 5 de ellos en colaboración con artistas amigos. Los artistas que forman parte de este disco son: Dack!, Fantom, Blacksin, JTH.",
+      "Disco original que cuenta con 14 temas, totalmente nuevos, compuestos 5 de ellos en colaboración con artistas amigos. Los artistas que forman parte de este disco son: Dack!, Fantom, Blacksin, JTH.",
     imgUrl:
       "https://res.cloudinary.com/draig/image/upload/v1688837284/draig-page/cx1isnhlt7xqnjly97uj.jpg",
     linkYoutube:

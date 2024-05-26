@@ -3,7 +3,7 @@ import React from "react";
 const ContactSection = () => {
   return (
     <section
-      className="bg-[#9370db] h-full w-screen flex flex-col justify-center items-center"
+      className=" bg-gradient-to-r from-[#452b79] via-[#3d0466] to-[#452b79] bg-cover bg-center h-full w-screen flex flex-col justify-center items-center"
       id="contact"
     >
       <div className="mx-10 text-center">
@@ -33,7 +33,6 @@ const ContactSection = () => {
                 href="https://www.instagram.com/nitdraig"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
               >
                 <img
                   src="/icons/instagram.svg"
@@ -46,7 +45,6 @@ const ContactSection = () => {
                 href="https://youtube.com/draig"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-600"
               >
                 <img
                   src="/icons/youtube.svg"
@@ -59,7 +57,6 @@ const ContactSection = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-600 hover:text-pink-800"
               >
                 <img
                   src="./icons/itunes.svg"
@@ -75,7 +72,7 @@ const ContactSection = () => {
               >
                 <img
                   src="./icons/show4.jpg"
-                  className="w-16 hover:transform rounded-full hover:scale-110 hover:duration-300"
+                  className="w-14 hover:transform rounded-full hover:scale-110 hover:duration-300"
                   alt="Show4Me"
                   loading="lazy"
                 />
@@ -88,7 +85,7 @@ const ContactSection = () => {
               >
                 <img
                   src="./icons/spotify.svg"
-                  className="w-16 hover:transform hover:scale-110 hover:duration-300"
+                  className="w-14 hover:transform hover:scale-110 hover:duration-300"
                   alt="Spotify"
                   loading="lazy"
                 />
@@ -100,7 +97,7 @@ const ContactSection = () => {
               src="./logo.svg"
               alt="Contact Image"
               loading="lazy"
-              className="w-64 h-64 object-cover rounded-lg mx-auto md:mx-0 invert"
+              className="w-64 h-64 object-cover rounded-lg mx-auto md:mx-0 hover:scale-110 hover:duration-300"
             />
           </div>
         </div>

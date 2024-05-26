@@ -27,19 +27,19 @@ p {
 img {
   -webkit-user-drag: none;
 }
-/* ::-webkit-scrollbar {
-  width: 10px;
+::-webkit-scrollbar {
+  width: 16px;
   scrollbar-color: rgb(61, 61, 61);
 }
 ::-webkit-scrollbar-thumb {
-  background: #1f2937;
+  background: #4b0082;
   border-radius: 2px;
 }
 
 ::selection {
   color: white;
   background: #1f2937;
-} */
+}
 .gradient-text {
   background: linear-gradient(
     to right,
@@ -48,7 +48,7 @@ img {
     #9370db,
     #9119e7,
     #ab4ff7,
-    #1b0410,
+    #3c126b,
     #4b0082,
     #9370db,
     #9119e7,

@@ -3,10 +3,10 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-screen flex justify-center items-center">
-      <div className="w-full h-full relative z-0  overflow-hidden">
+      <div className="w-full h-full relative z-0 bg-black  overflow-hidden">
         <video
-          src="./bg.mp4"
-          className="w-auto min-w-full blur-sm min-h-full max-w-none absolute top-0 left-0 right-0 bottom-0 m-auto"
+          src="https://res.cloudinary.com/draig/video/upload/v1716749197/draig-page/cy274ihxe3kpyhtmo68t.mp4"
+          className="lg:w-full w-screen blur-sm opacity-60 lg:min-h-full m-auto max-w-none absolute top-0 left-0 right-0 bottom-0"
           autoPlay
           playsInline
           preload="auto"
