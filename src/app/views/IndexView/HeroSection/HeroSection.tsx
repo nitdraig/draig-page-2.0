@@ -1,6 +1,5 @@
+import HeroTextAnimation from "@/app/components/HeroTextAnimation";
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
-import TextAnimation from "./components/TextAnimation";
 
 const HeroSection = () => {
   return (
@@ -20,7 +19,7 @@ const HeroSection = () => {
             Draig
           </h1>
           <h3>
-            <TextAnimation />
+            <HeroTextAnimation />
           </h3>
 
           <div className="flex flex-wrap mt-4  lg:mt-10 justify-center gap-6">

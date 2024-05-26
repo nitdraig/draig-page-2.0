@@ -2,7 +2,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
-const TextAnimation = () => {
+const HeroTextAnimation = () => {
   return (
     <>
       <TypeAnimation
@@ -23,4 +23,4 @@ const TextAnimation = () => {
   );
 };
 
-export default TextAnimation;
+export default HeroTextAnimation;
