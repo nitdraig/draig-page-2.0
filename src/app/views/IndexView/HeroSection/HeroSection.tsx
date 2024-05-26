@@ -1,4 +1,6 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
+import TextAnimation from "./components/TextAnimation";
 
 const HeroSection = () => {
   return (
@@ -14,13 +16,14 @@ const HeroSection = () => {
           muted
         ></video>
         <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center text-center">
-          <h1 className="text-transparent bg-clip-text gradient-text animate-gradient uppercase text-5xl  lg:text-7xl  font-bold mb-4">
+          <h1 className="text-transparent bg-clip-text gradient-text animate-gradient uppercase text-5xl  lg:text-8xl  font-bold mb-4 lg:mb-8">
             Draig
           </h1>
-          <h3 className="text-white uppercase  text-2xl lg:text-3xl ">
-            No es música, mi arte es placebo para el alma...
+          <h3>
+            <TextAnimation />
           </h3>
-          <div className="flex flex-wrap  mt-2 justify-center gap-6">
+
+          <div className="flex flex-wrap mt-4  lg:mt-10 justify-center gap-6">
             <a className="relative" href="#about">
               <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"></span>
               <span className="fold-bold lg:text-3xl text-2xl relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1  font-bold text-black transition duration-300 hover:bg-[#4B0082] hover:text-white">

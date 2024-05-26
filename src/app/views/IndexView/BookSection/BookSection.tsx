@@ -1,4 +1,5 @@
 import React from "react";
+import AnimationText from "../../../components/AnimationText";
 
 const BookSection = () => {
   return (
@@ -57,7 +58,7 @@ const BookSection = () => {
                           <img
                             src="https://res.cloudinary.com/draig/image/upload/v1688837281/draig-page/kixgjneuvdurbaadspqx.jpg"
                             alt="aji"
-                            className="object-cover w-full h-60 mx-auto rounded-t-3xl"
+                            className="object-cover w-screen h-60 mx-auto rounded-t-3xl"
                           />
                           <div className="rounded-t-3xl absolute bg-gradient-to-t from-gray-800 opacity-75 inset-0 z-0"></div>
                         </div>
@@ -71,12 +72,14 @@ const BookSection = () => {
                         >
                           <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z" />
                         </svg>
-                        <p className="text-gray-100 text-lg  px-5">
-                          No es fácil desnudar tu alma sin saber quién llegaría
+                        <p className="text-gray-100 text-lg block  px-5">
+                          <AnimationText
+                            text=" No es fácil desnudar tu alma sin saber quién llegaría
                           a leerlo y cómo podría ser interpretado, aún así me
                           tomé ese atrevimiento, en mi humilde repaso de ideas,
-                          conocimientos e historias en diversos formatos. <br />{" "}
-                          Espero puedas encontrarle el valor en tu lectura.
+                          conocimientos e historias en diversos formatos.
+                          Espero puedas encontrarle el valor en tu lectura."
+                          />
                         </p>
                         <svg
                           className="absolute right-0 w-6 fill-indigo-500"

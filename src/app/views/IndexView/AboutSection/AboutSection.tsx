@@ -1,4 +1,5 @@
 import React from "react";
+import AnimationText from "../../../components/AnimationText";
 
 const AboutSection = () => {
   return (
@@ -23,13 +24,20 @@ const AboutSection = () => {
             Detrás de este nombre se encuentra un compositor, productor y
             escritor, con una pasión desbordante por el arte.
           </p>
-          <p className="lg:text-2xl text-xl text-white mb-8">
+          {/* <p className="lg:text-2xl text-xl text-white mb-8">
             DRAIG ha dejado su huella en la industria musical con su música en
             Spotify y otras plataformas. <br /> Además de música, DRAIG también
             ha incursionado en la escritura, contando con un libro publicado en
             Amazon. <br />
             Fundador de Tinta Negra Studios, dedicado a crear producciones
             audiovisuales de todo tipo.
+          </p> */}
+          <p className="lg:text-2xl text-xl text-white mb-8">
+            <AnimationText
+              text={
+                "DRAIG ha dejado su huella en la industria musical con su música en Spotify y otras plataformas. Además de música, DRAIG también             ha incursionado en la escritura, contando con un libro publicado en Amazon.           Fundador de Tinta Negra Studios, dedicado a crear producciones audiovisuales de todo tipo."
+              }
+            />
           </p>
           <div className="flex flex-wrap  justify-center gap-6">
             <a className="relative" href="#songs">
