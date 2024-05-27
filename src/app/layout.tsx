@@ -8,7 +8,7 @@ const noto = Noto_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata: Metadata = {
   title: "DRAIG | Artista, Productor y Escritor",
   description:
-    "Draig, artista, productor y escritor, con una pasión desbordante por el arte. Draig ha dejado su huella en la industria musical con su música en Spotify y otras plataformas. Además de música, DRAIG también ha incursionado en la escritura, contando con un libro publicado en Amazon.  Fundador de Tinta Negra Studios, dedicado a crear producciones audiovisuales de todo tipo.",
+    "Draig, artista, productor y escritor, con una pasión desbordante por el arte. ",
   keywords: [
     "DRAIG compositor",
     "música independiente Spotify",
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "contacto profesional Instagram",
     "artista independiente",
   ],
+
   authors: {
     name: "Agustín Avellaneda | agustin.top",
   },
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DRAIG | Artista, Productor y Escritor.",
     description:
-      "Draig, artista, productor y escritor, con una pasión desbordante por el arte. Draig ha dejado su huella en la industria musical con su música en Spotify y otras plataformas. Además de música, DRAIG también ha incursionado en la escritura, contando con un libro publicado en Amazon.  Fundador de Tinta Negra Studios, dedicado a crear producciones audiovisuales de todo tipo.",
+      "Draig, artista, productor y escritor, con una pasión desbordante por el arte.",
     creator: "Avellaneda Agustín",
     images:
       "https://res.cloudinary.com/draig/image/upload/v1716756378/draig-page/w2mxnh6grba0tcdoqeiu.png",
@@ -42,9 +43,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.draig.art",
+
     title: "DRAIG | Artista, Productor y Escritor.",
     description:
-      "DC Consultora de Seguridad e Higiene en Catamarca es un referente comprometido con la excelencia y la responsabilidad en cada servicio. Nuestro equipo ofrece soluciones integrales en seguridad laboral y protección del medio ambiente. Destacamos por cumplir con los estándares legales y políticas internas. Confía en nuestra experiencia para garantizar un entorno laboral seguro y saludable en Catamarca.",
+      "Draig, artista, productor y escritor, con una pasión desbordante por el arte.",
     siteName: "DRAIG | Artista, Productor y Escritor.",
     images: [
       {
@@ -62,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={noto.className}>
+        <link rel="canonical" href="https://draig.art" />
         {children} <Footer />
       </body>
     </html>
