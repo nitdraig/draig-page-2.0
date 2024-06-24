@@ -9,7 +9,7 @@ const HeroSection = () => {
     >
       <div className="w-full h-full relative z-0 bg-black  overflow-hidden">
         <video
-          src="https://res.cloudinary.com/draig/video/upload/v1716749197/draig-page/cy274ihxe3kpyhtmo68t.mp4"
+          src="https://res.cloudinary.com/draig/video/upload/v1719189232/draig-page/gfzspwisewehsc9vmu6e.webm"
           className="lg:w-full w-screen blur-sm opacity-60 lg:min-h-full m-auto max-w-none absolute top-0 left-0 right-0 bottom-0"
           autoPlay
           playsInline
