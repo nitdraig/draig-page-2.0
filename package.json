@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "Draig",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "next": "14.2.10",
-    "package.json": "^2.0.1",
+    "package.json": "^0.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-type-animation": "^3.2.0",
