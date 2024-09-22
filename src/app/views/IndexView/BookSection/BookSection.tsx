@@ -16,13 +16,12 @@ const BookSection = () => {
                 Día 13, el gato negro de ojos azules y otras locuras.
               </h2>
               <p className="mt-4 lg:text-2xl text-lg text-gray-300">
-                Mi primer libro, vio la luz el 24 de agosto del 2019. Trata de
-                una recopilación de cuentos, poemas, relatos, vivencias,
-                reflexiones y delirios, escritos con una fuerza sentimental y
-                personal muy grande. <br />
+                El primer libro de Draig, vio la luz el 24 de agosto del 2019.
+                Trata de una recopilación de cuentos, poemas, relatos,
+                vivencias, reflexiones y delirios, escritos con una fuerza
+                sentimental y personal muy grande. <br />
                 Puede conseguirse, de momento, en Amazon en formato E-book y
-                físico. Espero sea de tu agrado y puedas hacerme saber que
-                llegaste a leerlo. Me tomó más de 3 años este proyecto.
+                físico.
               </p>
               <div className="flex flex-row justify-center md:justify-start items-center space-x-3 mt-5">
                 <a
@@ -59,7 +58,6 @@ const BookSection = () => {
                           <div className="rounded-t-3xl absolute bg-gradient-to-t from-gray-800 opacity-75 inset-0 z-0"></div>
                         </div>
                       </div>
-
                       <div className="relative m-5 p-2 lg:p-5">
                         <svg
                           className="absolute left-0 w-6 fill-indigo-500"
@@ -69,13 +67,11 @@ const BookSection = () => {
                           <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z" />
                         </svg>
                         <p className="text-gray-100 text-lg block  px-5">
-                          <AnimationText
-                            text=" No es fácil desnudar tu alma sin saber quién llegaría
+                          No es fácil desnudar tu alma sin saber quién llegaría
                           a leerlo y cómo podría ser interpretado, aún así me
                           tomé ese atrevimiento, en mi humilde repaso de ideas,
-                          conocimientos e historias en diversos formatos.
-                          Espero puedas encontrarle el valor en tu lectura."
-                          />
+                          conocimientos e historias en diversos formatos. Espero
+                          puedas encontrarle el valor en tu lectura.
                         </p>
                         <svg
                           className="absolute right-0 w-6 fill-indigo-500"

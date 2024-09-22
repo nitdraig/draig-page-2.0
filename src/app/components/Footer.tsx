@@ -11,20 +11,17 @@ const Footer: React.FC = () => {
               alt="Draig_logo"
               className="w-1/4 mx-auto md:mx-0"
             />
-            <p className="text-gray-200 mt-4">
+            <p className="text-gray-200 mt-0">
               © CopyRight 2024. All rights reserved
             </p>
-            <p className="text-gray-200 mt-2">
-              Developed by{" "}
-              <a
-                href="https://agustin.top"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-600"
-              >
-                DraigDev
-              </a>
-            </p>
+            <a
+              href="https://agustin.top"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-200 mt-2 hover:text-blue-600"
+            >
+              Developed by A.A
+            </a>
           </div>
         </div>
       </div>
